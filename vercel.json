@@ -3,7 +3,7 @@
     "builds": [{
             "src": "tanuresume/wsgi.py",
             "use": "@vercel/python",
-            "config": { "maxLambdaSize": "250mb", "runtime": "python3.9" }
+            "config": { "maxLambdaSize": "300mb", "runtime": "python3.9" }
         },
         {
             "src": "build_files.sh",
